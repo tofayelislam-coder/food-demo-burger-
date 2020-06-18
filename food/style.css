@@ -1,0 +1,181 @@
+*{
+  margin:0 ;
+  padding:0 ;
+  font-family:"Sofia";
+  font-size: 25px;
+}
+.sec1{
+  background-image: url(hamburger.jpg);
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+ul{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  
+
+
+  
+  
+  right: 0px;
+  list-style-type: none;
+  background-color: rgb(34, 30, 30);
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  
+}
+
+li{
+  float: left;
+ /* border-right: 1px solid green;*/
+  
+}
+/*li:last-child{
+  border-right: none;
+}*/
+li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+li:hover:not(.active){
+  background-color: grey;
+}
+/*.active{
+  background-color: lawngreen;
+  color: black;
+}*/
+
+
+
+
+
+.sec2{
+  /*background-color: brown;*/
+  width: 100%;
+  height: 100vh;
+}
+
+
+.col1{
+
+
+  position: absolute;
+  width: 30%;
+  float: left;
+  left: 80px;
+  margin-top: 50px;
+opacity: 0.5;
+  
+}
+.col1:hover{
+  opacity: 1;
+}
+.col2{
+  position: absolute;
+  float: left;
+  width: 60%;
+  margin-top: 50px;
+  left: 500px;
+}
+
+.sec3{
+ /* background-color: coral;*/
+  width: 100%;
+  height: 100vh;
+}
+
+
+.collm1{
+  position: absolute;
+  float: left;
+  width: 60%;
+  margin-top: 50px;
+  left: 40px;
+}
+
+.collm2{
+  position: absolute;
+  width: 30%;
+  float: left;
+  left: 850px;
+  margin-top: 50px;
+opacity: 0.5;
+
+}
+.collm2:hover{
+  opacity: 1;
+}
+
+.sec4{
+ /* background-color: crimson;*/
+  width: 100%;
+  height: 160vh;
+}
+
+.po{
+  position: relative;
+top: 60px;
+text-align: center;
+  
+ 
+}
+.t{
+  padding: 16px;
+  width: 700px;
+}
+
+.p1{
+  
+ font-style: normal;
+ font: normal;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  bottom: 30px;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  align-items: center;
+  position: relative;
+  left: 530px;
+  top: 70px;
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.footer{
+  padding: 45px;
+  background-color: darkgrey;
+  color: #4CAF50;
+  position: relative;
+  top:90px ;
+  text-align: center;
+}
+.footer:hover{
+  background-color: darkslategrey;
+}
+
+
